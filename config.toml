@@ -1,0 +1,11 @@
+notifiers = ["slack", "pync"]
+
+[amazon]
+url = "https://www.amazon.com/gp/buy/shipoptionselect/handlers/display.html?hasWorkingJavascript=1"
+wait_setup = 30
+wait_success = 300
+wait_fail = 5
+wait_error = 30
+
+[slack]
+url = "https://hooks.slack.com/services/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"
